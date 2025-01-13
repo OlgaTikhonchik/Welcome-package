@@ -523,10 +523,31 @@
     }
 }
 
+@media screen and (max-width: 713px) {
+    .banner__content-bonus-last{
+        bottom: 30px;
+    }
+}
+
 @media screen and (max-width: 700px) {
+    
+    .banner__content-bonus-last,.banner__content-bonus{
+        bottom: 0;
+    }
     .banner__content-bonus-first{
         bottom: 30px;
     }
+}
+
+@media screen and (max-width: 693px) {
+    
+    .banner__content-bonus-last,.banner__content-bonus{
+        bottom: 20px;
+    }
+    .banner__content-bonus-first{
+        bottom: 30px;
+    }
+
 }
 
 @media screen and (max-width: 464px) {
@@ -538,6 +559,8 @@
     .banner__content-bonus {
         bottom: 0;
     }
+
+  
 
     .banner__content-bonus-first{
         padding: 0;

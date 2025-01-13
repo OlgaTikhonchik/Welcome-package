@@ -292,6 +292,10 @@ article > h3,
 }
 
 .header__country {
+  display: flex
+  ;
+      align-items: center;
+      gap: 4px;
   color: #ffffff;
   text-transform: uppercase;
   font-weight: 600;
