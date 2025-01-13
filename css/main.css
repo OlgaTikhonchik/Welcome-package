@@ -99,7 +99,8 @@ article > h3,
   display: flex;
   align-items: center;
   justify-content: center;
-  min-width: 264px;
+  /* min-width: 264px; */
+  width: 264px;
   height: 78px;
   
   background: url(../images/button-register.svg) no-repeat center center /
@@ -433,6 +434,7 @@ svg {
 
 .hero__data {
   display: flex;
+  position: relative;
   justify-content: center;
   width: 50%;
   max-width: 482px;
@@ -619,6 +621,21 @@ svg {
   
   .sidebar__list.active {
     display: block;
+  }
+
+  .page-casino{
+    display: none;
+    margin-bottom: 20px;
+  }
+
+  .page-casino-desk{
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px ;
+
+  }
+
+  .page-casino .page-casino-cards {
+    justify-content: space-evenly;
   }
   
   /*-----------features-----------  */
@@ -895,7 +912,7 @@ svg {
     right: 20px;
   
     bottom: 20px;
-    background: url(../images/arrowUp.svg) no-repeat center center / contain;
+    background: url(../images/ArrowUp.svg) no-repeat center center / contain;
     z-index: 100;
   }
 
@@ -909,7 +926,7 @@ svg {
     gap: 32px;
     max-width: 1600px;
     padding:0 32px 43px 32px;
-    margin:  auto;
+    /* margin:  auto; */
 
 }
 
@@ -963,7 +980,7 @@ svg {
   
     .footer__menu li div:hover{
         color:#FFD400;
-        border: 1px solid #ffffff;
+        
     }
    
   
@@ -972,6 +989,7 @@ svg {
       display: block;
       padding: 5px 0;
       transition: all 0.5s;
+      white-space: nowrap;
     }
   
     .footer__info li a:hover {
@@ -995,6 +1013,13 @@ svg {
     .footer__cards li:hover{
         transform: scale(1.1);
         
+    }
+
+    .footer__cards img {
+      width: 100%; 
+      height: auto; 
+      /* width: 184px;
+      height: 80px; */
     }
 
     .footer__wrap{
@@ -1057,7 +1082,10 @@ svg {
     box-shadow: 0px 0px 40px 0px #7E2F99;
 
 }
-  
+
+
+
+
 /* -----------app-page------------ */
 
 
